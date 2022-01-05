@@ -160,12 +160,12 @@ html_header="""
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap'); </style>
 <title>C0D_ATA </title>
 <meta charset="utf-8">
-<meta name="keywords" content="Economics, data science, interest rates, streamlit, visualizer, data">
+<meta name="keywords" content="Economics, data science, OCDE, GDP, streamlit, visualizer, data">
 <meta name="description" content="C0D_ATA Data Project">
 <meta name="author" content="@Cober">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<h1 style="font-size:300%; color:#0A3254; font-family:Mulish; font-weight:800"> Interest rate term structure curvature   
+<h1 style="font-size:300%; color:#0A3254; font-family:Mulish; font-weight:800"> OECD Weekly Gdp Visualizer   
 <br>
  <hr style= "  display: block;
   margin-top: 0.5em;
@@ -256,7 +256,7 @@ if paginas == 'select country':
     col2.plotly_chart(fig4, use_container_width=True,config=config)
     
     col1,col2 = st.columns(2)
-    col1.write(f'Analising real time data we se that overal in {selected_country} has observed a jump in the estimated gdp in the last month,since overal gdp is 5% higher then 4 week ago AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
+    col1.write(f'Analising real time data we se that overal in {selected_country} has observed a jump in the estimated gdp in the last month,since overal gdp is 5% higher then 4 week ago')
     col2.write(f'Analising real time data we se that overal in {selected_country} has observed a jump in the estimated gdp in the last month,since overal gdp is 5% higher then 4 week ago')
 
 ################## ST LAYOUT do parte inferior ####################################################################################################
@@ -270,7 +270,7 @@ html_line="""
 <br>
 <br>
 <br>
-<p style="color:Gainsboro; text-align: left;">Fonte: Investing.com, BIS.</p>
+<p style="color:Gainsboro; text-align: left;">Fonts: OECD.</p>
 <hr style= "  display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
