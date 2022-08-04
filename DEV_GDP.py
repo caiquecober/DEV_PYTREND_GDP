@@ -184,7 +184,7 @@ html_line_2="""
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 1px;">
+  border-width: 1px;"> 
 """
 
 link_png = 'https://raw.githubusercontent.com/caiquecober/Research/master/logo_sem_nome.-PhotoRoom.png'
