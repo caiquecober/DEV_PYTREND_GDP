@@ -42,6 +42,7 @@ def get_agg_data():
     df= df.reset_index()
     return df
 
+
 ################################################################################# Func for data manipulation ###################################################################
 
 @log
@@ -215,6 +216,7 @@ paginas = st.sidebar.selectbox('',['Selected countries','select country'])
 df_sec = get_sector_data()
 df_agg = get_agg_data()
 
+st.write(df_agg.head())
 if paginas == 'Selected countries':
 
     #pegando os dados específicos com o df1 além do df inicial que é usado como base para todas as perspectivas
