@@ -188,7 +188,6 @@ html_line_2="""
 """
 
 link_png = 'https://raw.githubusercontent.com/caiquecober/Research/master/logo_sem_nome.-PhotoRoom.png'
-
 st.set_page_config(page_title="C0D_DATA - OCDE Weekly data visualizer", page_icon=link_png, layout="wide")
 
 padding = 1.2
@@ -243,7 +242,6 @@ if paginas == 'select country':
         lst_countries = df_agg.region.unique()
         selected_country= st.selectbox('',lst_countries)
 
-        
     #plotting data of the selected country
     fig3, _ = country_plot(df_agg, df_agg, selected_country)
     fig4 = country_sector_plot(df_sec,selected_country)
